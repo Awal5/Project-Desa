@@ -1,6 +1,7 @@
 * {
   font-family: "Inter", sans-serif;
 }
+
 .logo {
   height: 500px;
   width: 100%;
@@ -21,4 +22,58 @@
   margin: auto;
   padding-bottom: 5px;
   margin-bottom: -10px;
+}
+#main {
+  height: 1100px;
+  position: relative;
+}
+.container {
+  position: absolute;
+  top: 85px;
+  left: 70px;
+  width: 1250px;
+  height: 950px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 4px 5px rgba(0, 0, 0, 0.25);
+}
+h1.profile {
+  text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+  color: rgba(253, 94, 83, 1);
+  font-weight: 900;
+}
+.desc {
+  margin: 50px 15px;
+  font-weight: 600;
+}
+.purpose {
+  color: #21bf73;
+  font-weight: bolder;
+}
+.sidebar {
+  max-height: 950px;
+  overflow: scroll;
+  position: absolute;
+  top: 10px;
+  left: 1450px;
+  border: 10px solid #21bf73;
+  border-radius: 20px;
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+.card {
+  border: none;
+}
+.card-img-top {
+  border-radius: 15px;
+}
+.title {
+  border: 2px solid #21bf73;
+  background-color: #21bf73;
+  padding: 10px;
+  font-size: 35px;
+}
+.footer {
+  background-color: #21bf73;
+  box-shadow: 0px -8px 4px 0px rgba(0, 0, 0, 0.25);
 }
